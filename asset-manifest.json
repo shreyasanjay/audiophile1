@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d5cc283.css",
-    "main.js": "/static/js/main.7dd4fbe8.js",
-    "static/js/787.a9b4e088.chunk.js": "/static/js/787.a9b4e088.chunk.js",
-    "static/media/back22.png": "/static/media/back22.9f74df2dca7437f10608.png",
-    "static/media/back2.jpg": "/static/media/back2.5a8356bb39442031209a.jpg",
-    "index.html": "/index.html",
-    "main.7d5cc283.css.map": "/static/css/main.7d5cc283.css.map",
-    "main.7dd4fbe8.js.map": "/static/js/main.7dd4fbe8.js.map",
-    "787.a9b4e088.chunk.js.map": "/static/js/787.a9b4e088.chunk.js.map"
+    "main.css": "/audiophile1/static/css/main.6363446b.css",
+    "main.js": "/audiophile1/static/js/main.286cc0dd.js",
+    "static/js/787.a9b4e088.chunk.js": "/audiophile1/static/js/787.a9b4e088.chunk.js",
+    "static/media/back22.png": "/audiophile1/static/media/back22.9f74df2dca7437f10608.png",
+    "static/media/back2.jpg": "/audiophile1/static/media/back2.5a8356bb39442031209a.jpg",
+    "index.html": "/audiophile1/index.html",
+    "main.6363446b.css.map": "/audiophile1/static/css/main.6363446b.css.map",
+    "main.286cc0dd.js.map": "/audiophile1/static/js/main.286cc0dd.js.map",
+    "787.a9b4e088.chunk.js.map": "/audiophile1/static/js/787.a9b4e088.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d5cc283.css",
-    "static/js/main.7dd4fbe8.js"
+    "static/css/main.6363446b.css",
+    "static/js/main.286cc0dd.js"
   ]
 }
