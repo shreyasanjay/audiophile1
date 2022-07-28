@@ -14,7 +14,7 @@ function Car() {
       <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
-          src="girl.jpg"
+          src="./girl.jpg"
           alt="First slide"/>
         <Carousel.Caption className='caption'>
         </Carousel.Caption>
