@@ -1,6 +1,7 @@
 {
   "name": "bootcomp",
   "version": "0.1.0",
+  "homepage": "https://shreyasanjay.github.io/audiophile1",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
