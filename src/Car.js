@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import girl from './girl.jpg'; 
 import './App.css';
 function Car() {
   return (
@@ -14,7 +15,7 @@ function Car() {
       <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
-          src="./girl.jpg"
+          src={girl}
           alt="First slide"/>
         <Carousel.Caption className='caption'>
         </Carousel.Caption>
