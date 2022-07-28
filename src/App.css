@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../public/back22.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+.info-al{
+  margin-top: 14% !important;
+  width: 50% !important;
+  margin-left: 25%;
+  text-align: center;
+  background-image: linear-gradient(to right, #1ab5, #169b ) !important;
+  box-shadow: 5px 10px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: x-large;
+  margin-bottom: 5% !important;
+}
+.info-al1{
+  margin-bottom: 5% !important;
+  width: 50% !important;
+  margin-left: 25%;
+  text-align: center;
+  background-image: linear-gradient(to right, #1ab5, #169b ) !important;
+  box-shadow: 5px 10px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: x-large;
+}
+.but{
+  position: fixed;
+  padding: 10px 20px;
+  font-size: 10px;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+}
+/* navbar */
+.navb{
+  background-color: rgba(67, 67, 67, 0.5);
+}
+
+.navl{
+  color: aliceblue !important;
+  font-size: large;
+  font-weight: 500;
+}
+.navl:hover{
+  color: rgb(96, 203, 239) !important;
+}
+.alignm{
+  margin-left: -100% !important;
+}
+/* carousel */
+.car{
+  margin-top: 8% !important;
+}
+.carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+}
+.caption{
+  width: fit-content;
+  color: black !important;
+  background-color: rgba(110, 109, 109, 0.5);
+}
+.carousel-indicators{
+  border: 1px solid transparent;
+  border-radius: 10px;
+  top: 580px;
+  right: 200px;
+  margin-left: 400px !important;
+  width: 100px
+}
+/* cards */
+.artist{
+  width: 5rem !important;
+  border: solid black 4px !important;
+  height: 90% !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: justify;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 5px 10px #b8b8b8;
+}
+.row{
+  background-color: transparent !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+}
+.grp{
+  padding: 20px;
+}
+.im{
+  height: 40%;
+}
+/* contact us */
+.containercon{
+  background-color: rgba(115, 134, 151, 0.5);
+  padding: 30px;
+  border: 1px solid;
+  box-shadow: 5px 10px #b8b8b8;
+  margin-left: 10%;
+  margin-right: 10% !important;
+}
+.contactbtn{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+input{
+  width: 100%;
+}
+label{
+  font-weight: bold;
+}
+.area{
+  width: 100%;
+}
+.con{
+  border: solid black 3px;
+  padding: 20px;
+  margin-top: 3%;
+  width: fit-content;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.fig{
+  border: solid black 2px;
+  background-color: rgba(105, 105, 105, 0.5);
+}
+.cap{
+  color: aliceblue !important;
+  font-size: x-large;
+  font-weight: 500;
+}
+/* table */
+.tab{
+  margin: auto !important;
+  width: 80% !important;
+}
+td {
+  outline: none;
+  border-color: #9ecaed !important;
+  box-shadow: 0 0 30px #9ecaed !important;
+}
+/* tabs */
+.titlet{
+  font-size: medium !important;
+  font-weight: bold !important;
+  color: black;
+  background-color: aliceblue;
+}
+.nav-link{
+  color: aliceblue !important;
+  background-color: black !important;
+}
+.nav-link.active{
+  color: black !important;
+  background-color: aliceblue !important;
+}
+.justify-tab-example{
+  width: 50% !important;
+}
+.lst{
+  width: fit-content;
+  margin-left: 45%;
+}
+/* player */
+.player{
+  box-shadow: 5px 10px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+/* About Us */

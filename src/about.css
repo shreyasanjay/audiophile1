@@ -1,0 +1,107 @@
+.title {
+    margin: 8px;
+    text-decoration: underline;
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    line-height: 14rem;
+    outline: none;
+    display: inline-block;
+    color: #3494e6;
+  }
+  @supports (-webkit-background-clip: text) {
+    .title {
+      background-image: linear-gradient(to left, #3494e6, #ec6ead);;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      
+    }
+  }
+  .para1{
+    border-bottom: solid 1px aliceblue;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 5px 8px;
+    float: left;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    margin: 3%;
+  }
+  p{
+    padding: 10px;
+  }
+  .para2{
+    border-bottom: solid 1px aliceblue;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 5px 8px;
+    font-size: medium;
+    font-weight: 500;
+    float: right;
+    color: black;
+    margin: 6%;
+  }
+  .para3{
+    border-bottom: solid 1px aliceblue;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 5px 8px;
+    float: left;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    margin: 3%;
+  }
+  .para4{
+    border-bottom: solid 1px aliceblue;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    box-shadow: 5px 8px;
+    font-size: medium;
+    font-weight: 500;
+    float: right;
+    color: black;
+    margin: 6%;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: transform 400ms ease-out;
+  }
+  .column img:hover{
+    transform: scale(1.15);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  

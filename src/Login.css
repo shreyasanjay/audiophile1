@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+  }
+  .container2{
+    background-color: rgba(115, 134, 151, 0.5);
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-bottom: 20%;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid;
+    box-shadow: 5px 10px #b8b8b8;
+  }
+  input[type=text], [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(52, 52, 52) !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+  }
+  label{
+    color: aliceblue;
+    font-weight: bolder;
+  }
+  #login {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #000000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transform: translate(120%, 0%);
+  }
+  
+  #login:hover {
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
+  }

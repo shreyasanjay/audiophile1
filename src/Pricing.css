@@ -1,0 +1,55 @@
+.title {
+    margin: 8px;
+    text-decoration: underline;
+    font-family: "Anton", sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    line-height: 14rem;
+    outline: none;
+    display: inline-block;
+    color: #3494e6;
+  }
+@supports (-webkit-background-clip: text) {
+    .title {
+        background-image: linear-gradient(to left, #3494e6, #ec6ead);;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        
+    }
+}
+.grp{
+    padding: 20px !important;
+}
+.card-title{
+    text-align: center !important;
+    font-size: x-large !important;
+}
+.card1{
+    background: linear-gradient(to right, #9ee5ed, #daa3f0) !important;
+}
+.card2{
+    background: #ea99c1 !important;
+}
+.list-group{
+    padding: 20px !important;
+}
+.card-link{
+    font-size: x-large;
+}
+label{
+    color: #191919;
+}
+input[type=text], [type=password], [type=month]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(52, 52, 52) !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+  }
