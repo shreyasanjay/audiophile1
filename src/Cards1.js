@@ -16,7 +16,7 @@ function Cards1() {
       <Alert variant="info" className="info-al">
         <Alert.Heading>Listen to your favourite artists</Alert.Heading>
       </Alert>
-      <Container>
+      <Container className="card-con">
         <Row className="row">
           <Card className="artist">
             <Card.Img variant="top" src="kishore.jpg" className="im" />
